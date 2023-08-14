@@ -16,7 +16,7 @@ except (AttributeError, ImportError):
     def _pyimp():
         return 'Python'
 
-NAME = 'django_celery_beat'
+NAME = 'singular_django_celery_beat'
 
 E_UNSUPPORTED_PYTHON = '%s 1.0 requires %%s %%s or later!' % (NAME,)
 
